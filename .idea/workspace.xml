@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa57985-6a22-497a-b30c-9705e882501a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/PostgreSQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/SqlConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pg/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/SqlConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/SqlConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dump.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/SqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/SqlConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,41 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBDProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBDProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="jib" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBDProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBDProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBDProject" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoBDProject" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -90,19 +120,25 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.demoBDProject [:hw04_demoBDProject.Main.main()].executor": "Run",
     "Gradle.demoBDProject [:hw04_demoBDProject.tst.main()].executor": "Run",
+    "Gradle.demoBDProject [bootBuildImage].executor": "Run",
     "Gradle.demoBDProject [bootRun].executor": "Run",
     "Gradle.demoBDProject [build].executor": "Run",
     "Gradle.demoBDProject [clean].executor": "Run",
     "Gradle.demoBDProject [dependencies].executor": "Run",
+    "Gradle.demoBDProject [jibDockerBuild].executor": "Run",
+    "Gradle.demoBDProject [jib].executor": "Run",
     "Gradle.demoBDProject [shadowJar].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/aleks/IdeaProjects/demoBDProject/src/main/resources",
-    "onboarding.tips.debug.path": "C:/Users/aleks/IdeaProjects/demoBDProject/src/main/java/hw04_demoBDProject/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/aleks/IdeaProjects/demoBDProject/src/main/java/hw04_demoBDProject/Main.java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.3678161"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -115,8 +151,8 @@
       <recent name="C:\Users\aleks\IdeaProjects\demoBDProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.demoBDProject [build]">
-    <configuration name="demoBDProject [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager">
+    <configuration name="demoBDProject [bootBuildImage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -127,7 +163,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootRun" />
+            <option value="bootBuildImage" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -182,7 +218,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="demoBDProject [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="demoBDProject [jibDockerBuild]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -193,7 +229,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="jibDockerBuild" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,7 +240,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="demoBDProject [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="demoBDProject [jib]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -215,7 +251,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="shadowJar" />
+            <option value="jib" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,9 +266,9 @@
       <list>
         <item itemvalue="Gradle.demoBDProject [build]" />
         <item itemvalue="Gradle.demoBDProject [clean]" />
-        <item itemvalue="Gradle.demoBDProject [bootRun]" />
-        <item itemvalue="Gradle.demoBDProject [shadowJar]" />
-        <item itemvalue="Gradle.demoBDProject [dependencies]" />
+        <item itemvalue="Gradle.demoBDProject [jib]" />
+        <item itemvalue="Gradle.demoBDProject [jibDockerBuild]" />
+        <item itemvalue="Gradle.demoBDProject [bootBuildImage]" />
       </list>
     </recent_temporary>
   </component>

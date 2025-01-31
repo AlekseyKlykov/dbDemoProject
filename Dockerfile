@@ -1,9 +1,6 @@
-FROM postgres:latest
-
-
-ENV POSTGRES_USER usr
-ENV POSTGRES_PASSWORD psw
-ENV POSTGRES_DB demoDB
-
-
-COPY dump.sql /docker-entrypoint-initdb/
+FROM bellsoft/liberica-openjdk-alpine-musl:latest
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+ARG JAR_FILE=build/libs/*.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]

@@ -10,7 +10,7 @@ public interface SqlConnection {
 
     default Connection SqlConnect() throws SQLException{
 
-        String url = "jdbc:postgresql://localhost:8006/demoDB";
+        String url = "jdbc:postgresql://pg-docker:5432/demoDB";
         String usr  = "usr";
         String psw = "pwd";
 
