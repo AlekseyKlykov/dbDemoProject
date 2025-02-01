@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa57985-6a22-497a-b30c-9705e882501a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pg/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/SqlConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/SqlConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/PostgreSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/User$sUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/tst.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/tst.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT-plain.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dump.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/SqlConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/SqlConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/PostgreSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Service/PostgreSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Service/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/tst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/tst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +133,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/aleks/IdeaProjects/demoBDProject/src/main/resources",
@@ -151,28 +153,32 @@
       <recent name="C:\Users\aleks\IdeaProjects\demoBDProject\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="demoBDProject [bootBuildImage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootBuildImage" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.demoBDProject [build]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw04_demoBDProject.Main" />
+      <module name="demoBDProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw04_demoBDProject.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw04_demoBDProject.tst" />
+      <module name="demoBDProject.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw04_demoBDProject.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="demoBDProject [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -218,28 +224,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="demoBDProject [jibDockerBuild]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jibDockerBuild" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="demoBDProject [jib]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -266,9 +250,9 @@
       <list>
         <item itemvalue="Gradle.demoBDProject [build]" />
         <item itemvalue="Gradle.demoBDProject [clean]" />
+        <item itemvalue="Application.tst" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.demoBDProject [jib]" />
-        <item itemvalue="Gradle.demoBDProject [jibDockerBuild]" />
-        <item itemvalue="Gradle.demoBDProject [bootBuildImage]" />
       </list>
     </recent_temporary>
   </component>
