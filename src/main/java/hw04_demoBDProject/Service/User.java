@@ -13,8 +13,8 @@ public class User {
     private final java.util.List<sUser> usr = new ArrayList<>();
 
     public void GetAllUser() throws SQLException {
-        PostgreSQL pg = new PostgreSQL();
-       ResultSet res = pg.sqlStatement(pg.getCon(),"Select * from public.User");
+        PostgreSQL pg = PostgreSQL.createPostgreSqlCon();
+       ResultSet res = pg.sqlStatement("Select * from public.User");
         if(res.next()) {
             sUser setParam = new sUser();
             setParam.usr_id = res.getInt(1);
@@ -34,9 +34,9 @@ public class User {
         res.close();
     }
     public String GetTopOneUser(String usr) throws SQLException {
-        PostgreSQL pg = new PostgreSQL();
+        PostgreSQL pg = PostgreSQL.createPostgreSqlCon();
 
-       ResultSet res = pg.sqlStatement(pg.getCon(),String.format("Select  * from public.\"User\" where usr_login = \'%s\' ORDER BY usr_id DESC LIMIT 1;" ,usr));
+       ResultSet res = pg.sqlStatement(String.format("Select  * from public.\"User\" where usr_login = \'%s\' ORDER BY usr_id DESC LIMIT 1;" ,usr));
 if(res.next())
 {
     return String.format("ИД: %s, Фамилия: %s, Имя: %s, Логин: %s, Пароль: %s, Активный: %s\n\n\n",res.getString(1)
@@ -55,8 +55,8 @@ return null;
 
     public void insertUser(String lastName,String firstName,String login,String password,int active,int role) throws SQLException {
 
-        PostgreSQL pg = new PostgreSQL();
-        pg.sqlPreparedStatement(pg.getCon(),String.format("insert into public.\"User\"(\"usr_lastName\",\"usr_firstName\", \"usr_login\", \"usr_password\",\"usr_active\", \"usr_role\") values(\'%s\',\'%s\',\'%s\',\'%s\',%s,%s)",lastName,firstName,login,password,active,role));
+        PostgreSQL pg = PostgreSQL.createPostgreSqlCon();
+        pg.sqlPreparedStatement(String.format("insert into public.\"User\"(\"usr_lastName\",\"usr_firstName\", \"usr_login\", \"usr_password\",\"usr_active\", \"usr_role\") values(\'%s\',\'%s\',\'%s\',\'%s\',%s,%s)",lastName,firstName,login,password,active,role));
 
     };
 

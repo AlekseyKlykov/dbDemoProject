@@ -11,9 +11,9 @@ import java.sql.*;
 
 public class PostgreSQL implements SqlConnection {
 
-private Connection con = null;
-
-public PostgreSQL() throws SQLException {
+private static Connection con = null;
+private static PostgreSQL pgSql = null;
+private PostgreSQL() throws SQLException {
     if(con == null)
     {
         con = SqlConnect();
@@ -22,9 +22,22 @@ public PostgreSQL() throws SQLException {
 
     }
 }
+public static PostgreSQL createPostgreSqlCon() throws SQLException {
+
+    if(pgSql == null)
+    {
+        pgSql = new PostgreSQL();
+
+
+
+    }
+    return pgSql;
+
+
+}
     @Override
-    public ResultSet sqlStatement(Connection con, String sqlStatement) throws SQLException {
-        Statement st = con.createStatement();
+    public ResultSet sqlStatement( String sqlStatement) throws SQLException {
+        Statement st = this.con.createStatement();
         return st.executeQuery(sqlStatement);
 
 
@@ -32,8 +45,8 @@ public PostgreSQL() throws SQLException {
     }
 
     @Override
-    public void sqlPreparedStatement(Connection con, String sqlStatement) throws SQLException {
-        PreparedStatement st = con.prepareStatement(sqlStatement);
+    public void sqlPreparedStatement( String sqlStatement) throws SQLException {
+        PreparedStatement st = this.con.prepareStatement(sqlStatement);
         st.executeUpdate();
         st.close();
 

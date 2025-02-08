@@ -18,7 +18,7 @@ public interface SqlConnection {
         return DriverManager.getConnection(url,usr,psw);
 
     }
-    public ResultSet sqlStatement(Connection con, String sqlStatement) throws SQLException;
-    public void sqlPreparedStatement(Connection con, String sqlStatement) throws SQLException;
+    public ResultSet sqlStatement(String sqlStatement) throws SQLException;
+    public void sqlPreparedStatement(String sqlStatement) throws SQLException;
 
 }

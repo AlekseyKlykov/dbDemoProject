@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa57985-6a22-497a-b30c-9705e882501a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/PostgreSQL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/User$sUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/tst.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hw04_demoBDProject/tst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/demoBDProject-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/PostgreSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Service/PostgreSQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Service/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/tst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw04_demoBDProject/tst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
